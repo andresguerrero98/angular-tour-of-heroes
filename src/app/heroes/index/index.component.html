@@ -1,0 +1,15 @@
+
+<h1>{{title}}</h1>
+<div class="row mt-4">
+  <div class="col-md-3 mb-3" *ngFor="let heroe of heroes">
+    <div class="card">
+      <div class="card-header">
+        {{heroe.name}}
+      </div>
+      <img src="../../../assets/no_image.png" class="card-img-top" alt="an image">
+      <div class="card-body">
+        {{heroe.description}}
+      </div>
+    </div>
+  </div>
+</div>
