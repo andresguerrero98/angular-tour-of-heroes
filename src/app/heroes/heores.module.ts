@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IndexComponent } from './index/index.component';
 import { HeroesRoutingModule } from './heroes-routing.module';
+import { CreateComponent } from './create/create.component';
 
 @NgModule({
   declarations: [
-    IndexComponent
+    IndexComponent,
+    CreateComponent
   ],
   imports: [
     CommonModule,
